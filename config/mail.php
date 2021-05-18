@@ -11,16 +11,16 @@ return [
     | sending of e-mail. You may specify which one you're using throughout
     | your application here. By default, Laravel is setup for SMTP mail.
     |
-    | Supported: "smtp", "sendmail", "mailgun", "mandrill", "ses",
-    |            "sparkpost", "postmark", "log", "array"
+    | Supported: "smtp", "sendmail", "mailgun", "ses",
+    | "postmark", "log", "array"
     |
     */
 
-    'driver' => env('MAIL_DRIVER', 'smtp'),
+    'default' => env('MAIL_DRIVER', 'smtp'),
 
     /*
     |--------------------------------------------------------------------------
-    | SMTP Host Address
+    | Mailer Host Address
     |--------------------------------------------------------------------------
     |
     | Here you may provide the host address of the SMTP server used by your
