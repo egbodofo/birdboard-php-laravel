@@ -3,7 +3,6 @@
 namespace Tests\Feature;
 
 use App\Project;
-// use App\Task;
 use Tests\TestCase;
 use Facades\Tests\Setup\ProjectFactory;
 use App\Http\Middleware\VerifyCsrfToken;
